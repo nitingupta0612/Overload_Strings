@@ -1,12 +1,13 @@
-//Hactoberfest
+//Hactoberfest october 2022
 #include<iostream>
 #include<string.h>
+#include<math.h>
 using namespace std;
 class String
 {
 	char str[200];
 	public:
-		void read()
+		void getstring()
 		{
 			cout<<"Enter a string: ";
 			cin>>str;
@@ -25,10 +26,10 @@ class String
 };
 int main()
 {
-	String s1,s2,s3;
-	s1.read();
-	s2.read();
-	s3=s1+s2;
-	s3.print();
+	String str1,str2,str3;
+	str1.getstring();
+	str2.getstring();
+	str3=str1+str2;
+	str3.print();
 	return 0;
 }
