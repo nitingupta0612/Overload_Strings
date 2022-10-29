@@ -12,7 +12,7 @@ class String
 			cout<<"Enter a string: ";
 			cin>>str;
 		}
-	void print()
+	void displaystring()
 	{
 		cout<<"String is : "<<str<<endl;
 	}
@@ -30,6 +30,6 @@ int main()
 	str1.getstring();
 	str2.getstring();
 	str3=str1+str2;
-	str3.print();
+	str3.displaystring();
 	return 0;
 }
